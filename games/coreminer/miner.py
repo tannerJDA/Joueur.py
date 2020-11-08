@@ -23,6 +23,7 @@ class Miner(GameObject):
         GameObject.__init__(self)
 
         # private attributes to hold the properties so they appear read only
+        self._direction = None
         self._bombs = 0
         self._building_materials = 0
         self._current_upgrade = None

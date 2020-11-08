@@ -1,10 +1,5 @@
 all:
-	make dependencies
 	make core
-
-dependencies:
-	pip3 install -U -r requirements.txt
-
 core:
 	python3 -m compileall -x '.creer' ./
 

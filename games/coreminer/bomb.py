@@ -24,7 +24,7 @@ class Bomb(GameObject):
 
         # private attributes to hold the properties so they appear read only
         self._tile = None
-        self._timer = 0
+        self._timer = 5
 
     @property
     def tile(self) -> Optional['games.coreminer.tile.Tile']:
